@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(221, 157, 221);
+
+}
+.lowTaper{
+    position: relative;
+    left: 80%
+}
+
+.eye{
+    position: absolute;
+    left: 43%;
+    top: 50%;
+}
+.Bn{
+    position: absolute;
+    left: 47%;
+    top:30%;
+}
+
+.Bn button{
+    font-size: 17px;
+    background-color: aqua;
+    padding:30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: outset;
+    border-width: 8px;
+    border-color: rgb(207, 40, 207);
+}
+.Bn button:hover{
+    background: url('eye.png');
+    background-size: cover;
+    background-color: rgb(21, 128, 128);
+    font-size: 20px;
+
+
+}
+.ray p{
+    position: absolute;
+    left: 100px;
+}
+header{
+    padding-top: 10px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: plum;
+    border-width: 10px;
+}
+
+
+.low p {
+    position: relative;
+    left: 70%;
+    top:149px;
+    
+}
+
+header h1{
+    text-align: center;
+
+}
+.chinChopped{
+    position: relative;
+    bottom:300px;
+}
+
+.chin p{
+    position: relative;
+    bottom: 440px;
+    left: 290px;
+    padding:16px;
+
+}
+
+
