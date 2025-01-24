@@ -1,0 +1,23 @@
+body{
+
+background-color:  rgb(221, 157, 221);
+
+}
+
+
+header{
+    background-color: purple;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgb(104, 46, 104);
+    margin-bottom: 50px;
+    color: rgb(235, 13, 235);
+    text-align: center;
+    box-shadow: purple 15px 5px 5px;
+
+}
+
+.winner-container h1{
+    text-align: center;
+
+}

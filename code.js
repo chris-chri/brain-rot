@@ -35,9 +35,16 @@ let quizData = [
         correct: ["20"]
     },
     {
-        question:" What is the answer(answer very carefully) : ''Is This the Best Website You have seen?'' ",
+        question:" (Answer this  very carefully) : ''Is This the Best Website You have seen?'' ",
         options:["No","maybe","Yes","No bad website"],
         correct : ["Yes"]
+    },
+
+        
+    {   question: "Finish This sentence:  ''You Think Your The King, No i am ______''",
+        options:["The chosen one","The Queen","The King","The Prince"],
+        correct:["The King"]
+
     }
 ];
 const quizContainer = document.querySelector(".Quiz-container");
@@ -80,6 +87,10 @@ const checkAnswer = (e) =>{
             o.disabled = false;
         }
     });
+
+    if(score === maxQuestions){
+        window.location.href = `winner.html`;
+    }
 
 };
 /// I WAS GOING TO MAKE A TIME BUT THE CODE WAS NOT WORKING OMG MAN I HAVE JAVA SCRIPT. WHO MADE THIS PROGRAMMING LANGUUAE MAN.

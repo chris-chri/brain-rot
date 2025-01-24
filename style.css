@@ -1,6 +1,5 @@
 *{
-    margin:0;
-    padding:0;
+   
     box-sizing: border-box;
 
 }
@@ -8,11 +7,14 @@
 body{
     overflow-x: hidden;
     background-color: rgb(221, 157, 221);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 
 }
 .lowTaper{
     position: relative;
-    left: 80%
+    left: 80%;
+    bottom: 200px;
 }
 
 .eye{
@@ -68,11 +70,12 @@ header{
 
 header h1{
     text-align: center;
+    color: rgb(236, 30, 236);
 
 }
 .chinChopped{
     position: relative;
-    bottom:300px;
+   
 }
 
 .chin p{
@@ -82,5 +85,55 @@ header h1{
     padding:16px;
 
 }
+
+.or{
+    position: absolute;
+    left: 50%;
+    bottom:190px;
+    font-size: 30px;
+    font-style: bold;
+    
+
+}
+.bn2 button{
+    position: absolute;
+    top: 78%;
+    font-size:17px;
+    width: 290px;
+    padding:30px;
+    border-style: outset;
+    border-width: 8px;
+    left:39%;
+    border-radius: 10px;
+
+
+}
+
+.bn2 button:hover{
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+}
+.imgSmart{
+    position:absolute;
+    left: 85%;
+    top: 100%;
+
+}
+.or p{
+top: 490px;
+}
+.smart1{
+    position: absolute;
+    bottom:90px
+}
+
+
+.pic{
+    position: absolute;
+    bottom:-40%;
+}
+
+
 
 
